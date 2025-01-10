@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './Navbar';
-import hero from '../..//assets/hero.mp4';
 
 const Header = () => {
     return (
@@ -8,7 +7,7 @@ const Header = () => {
             {/* Video Background */}
             <video
                 className="absolute top-0 left-0 w-full h-full object-cover"
-                src={hero}
+                src='https://www.youtube.com/watch?v=xPPLbEFbCAo'
                 autoPlay
                 loop
                 muted
